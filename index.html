@@ -211,7 +211,7 @@
             <p>
               We propose three modules, 3D Deformable Transformer Encoder, Localizing Decoder Layer (LDL), and Classifying Decoder Layer (CDL).
               Input videos are processed through backbone and 3D Deformable Transformer Encoder to obtain video features.
-              LDL focuses on localizing the actor, and hand the actor-related features over to CDL.
+              LDL focuses on localizing the actor, and hands the actor-related features over to CDL.
               Our classification module, CDL, processes the actor feature, context feature and class queries to obtain class-specific attention map.
               To be specific, it first merges the actor feature and the context feature and then cross attend the merged feature with class queries.
               The model finally aggregates the class-wise information from each map and outputs final logit for each actor.
