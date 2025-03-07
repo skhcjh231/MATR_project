@@ -338,6 +338,7 @@
 
 <!-- Youtube video -->
 <section class="hero is-small is-light">
+  <h2 class="title">Video presentation</h2>
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
@@ -346,7 +347,7 @@
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/watch?v=zadfbitEYEg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/zadfbitEYEg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -369,22 +370,12 @@
 <!--End paper poster -->
 <!-- Paper poster -->
 <section class="hero is-small is-light">
+  <h2 class="title">Poster</h2>
   <div class="hero-body">
     <div class="container">
-      <!-- PDF를 전체 화면으로 표시하는 embed 태그 사용 -->
-      <embed 
-        src="static/pdfs/eccv on-tal poster_local_ver8.pdf#toolbar=0&navpanes=0&scrollbar=0" 
-        type="application/pdf"
-        width="100%" 
-        height="800px"
-        style="border: none; display: block; margin: 0 auto;">
-      
-      <!-- 다운로드 링크 추가 -->
-      <p class="has-text-centered mt-3">
-        <a href="static/pdfs/eccv on-tal poster_local_ver8.pdf" class="button is-link is-small" download>
-          <span>Download PDF</span>
-        </a>
-      </p>
+      <object data="static/pdfs/eccv on-tal poster_local_ver8.pdf" type="application/pdf" width="100%" height="800">
+        <p>Your browser doesn't support PDF viewing. Please <a href="static/pdfs/eccv on-tal poster_local_ver8.pdf">download the PDF</a> to view it.</p>
+      </object>
     </div>
   </div>
 </section>
